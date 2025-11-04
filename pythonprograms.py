@@ -36,6 +36,24 @@ else:
     for i in range(1, num + 1):
         factorial *= i
     print("The factorial of", num, "is", factorial)
+
+4# Program to generate Fibonacci series
+
+num = int(input("Enter a number: "))
+
+# Convert number to string to count digits
+digits = len(str(num))
+
+# Calculate the sum of digits raised to the power of number of digits
+sum_of_powers = sum(int(digit) ** digits for digit in str(num))
+
+# Check if Armstrong number
+if num == sum_of_powers:
+    print(num, "is an Armstrong number")
+else:
+    print(num, "is not an Armstrong number")
+
+
   
 
 
