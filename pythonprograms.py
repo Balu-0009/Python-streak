@@ -54,6 +54,33 @@ else:
     print(num, "is not an Armstrong number")
 
 
+5# Program to check using srting methods
+
+# Simple Python program using strings
+
+# Taking a string variable
+name = "PythonProgramming"
+
+# Printing the string
+print("Name:", name)
+
+# String length
+print("Length of the string:", len(name))
+
+# Accessing characters in a string
+print("First character:", name[0])
+print("Last character:", name[-1])
+
+# String concatenation
+greeting = "Hello " + name
+print(greeting)
+
+# Changing string case
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+
+
+
   
 
 
